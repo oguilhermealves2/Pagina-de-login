@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header {
+    border-bottom: 2px #32b9cd solid;
+}
+
+.header .container{
+  justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora {
+    font-weight: 800;
+} 
+
+.navbar {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.banner {
+    height: 80vh;
+    padding: 40px 0;
+    color: white;
+    background-image: url('../assets/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner .container {
+   height: 400px;
+   font-size: 36px;
+   justify-content: center;
+   align-items: center;
+}
+
+.banner p {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+}
+.banner .container span {
+    font-weight: 800;
+}
+
+.divider {
+    color: #e3b062;
+}
+
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.loginBox {
+    background-color: #e5e5e5;
+    color: #e6005a;
+    height: 40vh;
+    width: 25vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginBox label {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.inputLogin {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.inputLogin input {
+    border: 2px solid #32b9cd;
+    padding: 15px 30px;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    transition: 0.65s;
+}
+
+.inputLogin input:focus {
+    border: 2px solid #e6005a;
+}
+
+.loginBox button {
+    background-color: #e6005a;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #e6005a;
+    padding: 10px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.7s;
+    font-weight: 700;
+}
+
+.loginBox button:hover {
+    background-color: transparent;
+    color: #e6005a;
+}
